@@ -9,7 +9,7 @@ Homepage: http://opentsdb.net/
 
 Package: tcollector
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, adduser
+Depends: python, adduser
 Recommends: smartmontools
 Section: utils
 Description: data collection framework for OpenTSDB
